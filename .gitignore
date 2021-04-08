@@ -1,0 +1,11 @@
+*.swn
+*.swp
+*.txt
+.php_cs.cache
+.phpunit.result.cache
+/gh/*
+composer.lock
+composer.phar
+gh
+phpunit.xml
+vendor/*

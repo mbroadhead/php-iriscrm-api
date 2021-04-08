@@ -1,0 +1,33 @@
+{
+  "name": "mbroadhead/php-iriscrm-api",
+  "description": "An unofficial IRIS CRM API client.",
+  "type": "library",
+  "license": "The MIT License",
+  "authors": [
+    {
+      "name": "Mitch Broadhead",
+      "email": "mitch.broadhead@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.83",
+    "phpunit/phpunit": "^9.5",
+    "symfony/phpunit-bridge": "^5.2",
+    "http-interop/http-factory-guzzle": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IrisCrm\\": "lib/IrisCrm/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IrisCrm\\Tests\\": "test/IrisCrm/Tests/"
+    }
+  },
+  "require": {
+    "php-http/discovery": "^1.13",
+    "php-http/client-common": "^2.3"
+  }
+}
